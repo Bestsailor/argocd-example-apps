@@ -4,7 +4,7 @@ metadata:
   name: helm-guestbook
   namespace: argocd
   finalizers:
-  - resources-finalizer.argocd.argoproj.io
+  - resources-finalizer.argocd.argoproj.io #TEST
 spec:
   destination:
     namespace: helm-guestbook
